@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "trekdice",
+  "title": "Star Trek Adventures Dice Set",
+  "description": "This dice set will give custom Star Trek Adventures dice",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,13 +9,15 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "GoGreenRanger"
+
     }
   ],
   "dependencies": [
-
+    {
+      "type": "module",
+      "name": "dice-so-nice"
+    }
   ],
   "conflicts": [
     
@@ -25,6 +27,7 @@
   ],
   "scripts": [
     "/scripts/lib/lib.js"
+    "/scripts/trekdice.js"
   ],
   "styles": [
     "/styles/module.css"
